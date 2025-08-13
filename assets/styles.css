@@ -1,0 +1,27 @@
+:root{
+    --principal-text-color: rgb(18, 188, 218);
+    --nav-bg-color: rgba(4, 67, 104, 0.747);
+    --link-text-color: rgba(255, 255, 255, 0.589);
+
+}
+#nav-name{
+    color: var(--principal-text-color)
+}
+.nav-bg{
+    background-color: var(--nav-bg-color);
+}
+.nav-bg a{
+    color: var(--link-text-color)
+}
+.nav-bg a:hover{
+    color: var(--principal-text-color)
+}
+.btn-cv{
+    text-align: center;
+    color: var(--principal-text-color);
+    border-color: var(--principal-text-color);
+}
+.btn-cv:hover{
+    background-color: var(--principal-text-color);
+    color: var(--link-text-color);
+}
