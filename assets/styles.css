@@ -1,14 +1,32 @@
 :root{
-    --principal-text-color: rgb(18, 188, 218);
-    --nav-bg-color: rgba(4, 67, 104, 0.747);
-    --link-text-color: rgba(255, 255, 255, 0.589);
-
+    --principal-text-color: #3498db;
+    --nav-bg-color: #2c3e50;
+    --link-text-color: #ecf0f1;
+    --principal-bg-color: #2c3e50;
+}
+.container-fluid{
+    background-color: var(--principal-bg-color);
+}
+.navbar{
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top:1%;
 }
 #nav-name{
+    color: var(--principal-text-color);
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.nav-link{
+     font-size: 1rem;
+}
+.nav-link:hover{
     color: var(--principal-text-color);
 }
 .nav-bg{
     background-color: var(--nav-bg-color);
+       
 }
 .nav-bg a{
     color: var(--link-text-color);
@@ -22,6 +40,9 @@
     text-align: center;
     color: var(--principal-text-color);
     border-color: var(--principal-text-color);
+    padding: 8px 20px;
+    font-weight: 500;
+    border-radius: 50px;
 }
 .btn-cv:hover{
     background-color: var(--principal-text-color);
