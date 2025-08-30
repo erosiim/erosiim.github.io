@@ -5,17 +5,19 @@
 
 }
 #nav-name{
-    color: var(--principal-text-color)
+    color: var(--principal-text-color);
 }
 .nav-bg{
     background-color: var(--nav-bg-color);
 }
 .nav-bg a{
-    color: var(--link-text-color)
+    color: var(--link-text-color);
+    text-decoration: none;
 }
 .nav-bg a:hover{
-    color: var(--principal-text-color)
+    color: var(--principal-text-color);
 }
+
 .btn-cv{
     text-align: center;
     color: var(--principal-text-color);
@@ -24,4 +26,9 @@
 .btn-cv:hover{
     background-color: var(--principal-text-color);
     color: var(--link-text-color);
+}
+
+.container-bg-introduction{
+    background-color: var(--nav-bg-color);
+    color: white;
 }
